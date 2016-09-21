@@ -1,0 +1,15 @@
+.footer{
+	background:#fff;
+	 padding-top: 48px;
+	padding: 5px;
+	.nav{
+		li{
+			display:inline-block;
+		}
+	}
+	.footer-container{
+		a{
+			color: #666;
+		}
+	}
+}

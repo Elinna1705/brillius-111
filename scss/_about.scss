@@ -1,0 +1,38 @@
+.about{
+	background:#cb542f;
+	padding-bottom: 63px;
+	@include media('>=screen-lg'){
+		padding-top: 67px;
+	}
+	h2{
+		margin-bottom: 7px;
+	}
+	.skills{
+		padding-top: 45px;
+		padding-bottom: 5px;
+		.skill-container{
+			display: inline-block;
+			border: solid 8px white; 
+			width: 232px; 
+			height: 232px; 
+			border-radius: 50%; 
+			padding: 6px;
+			margin-bottom: 30px;
+			position: relative;
+			box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5), 2px 2px 5px rgba(0, 0, 0, 0.5) inset;
+			input{
+				display: none;
+			}
+			.skill-title{
+				position: absolute;
+				top:50%;
+				left:50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+	}
+	p{
+		margin-bottom: 8px;
+	}
+
+}
